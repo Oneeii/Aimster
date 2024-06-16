@@ -1,0 +1,207 @@
+\/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style 1: Gradient Background with Icons */
+.footer-1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+  outline: 1px solid #ddd; /* Outline */
+}
+
+.footer-1 .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-1 h3 {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+}
+
+/* Style 2: Footer with Background Image and Contact Info */
+.footer-2 {
+  background-image: url('footer-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+  outline: 1px solid #ddd; /* Outline */
+}
+
+.footer-2 .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-2 .footer-content .contact-info {
+  text-align: left;
+}
+
+.footer-2 .footer-content .footer-logo {
+  max-width: 200px;
+}
+
+.footer-2 .footer-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style 3: Dark Footer with Links */
+.footer-3 {
+  background-color: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  outline: 1px solid #ddd; /* Outline */
+}
+
+.footer-3 .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-3 .footer-content .footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-3 .footer-content .footer-info {
+  text-align: left;
+}
+
+.footer-3 .footer-content .footer-info a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-3 .footer-content .footer-info a:hover {
+  color: #aaa;
+}
+
+/* Style 4: Footer with Hover Effects and Subscription Form */
+.footer-4 {
+  background-color: #333;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+  outline: 1px solid #ddd; /* Outline */
+}
+
+.footer-4 .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-4 h3 {
+  margin-bottom: 20px;
+}
+
+.footer-4 form {
+  margin-bottom: 20px;
+}
+
+.footer-4 form input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.footer-4 form button {
+  padding: 10px 20px;
+  background-color: #764ba2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-4 form button:hover {
+  background-color: #5f3e83;
+}
+
+.footer-4 .social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-4 .social-icons a:hover {
+  transform: translateY(-3px);
+}
+
+/* Style 5: Footer with Multiple Columns */
+.footer-5 {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  outline: 1px solid #ddd; /* Outline */
+}
+
+.footer-5 .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-5 .social-icons a {
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.footer-5 .social-icons a:hover {
+  transform: translateY(-3px);
+}

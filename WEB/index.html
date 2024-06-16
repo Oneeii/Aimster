@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <style>
+    body {
+      background-image: url('file:///D:/WEB/img/THIS.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh; /* Ensure the body takes up the full viewport */
+      color: white; /* Text color for the header and paragraph */
+      text-align: center; /* Center align text */
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px;
+      color: white;
+      position: absolute;
+      top: 50px;
+      width: 100%; /* Ensure footer spans full width */
+    }
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .btn {
+      /* Add your button styles here */
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      background-color: #4CAF50; /* Green color */
+    }
+    .btn:hover {
+      background-color: #45a049; /* Darker green color */
+    }
+  </style>
+</head>
+<body class="portfolio-body">
+  <div style="position: absolute; top: 50px; left: 0; right: 0; text-align: center;">
+    <h1>Header and Footer</h1>
+    <br/>
+    <p>Welcome to my Header and Footer Design Gallery. Consisting 5 of each Static and Dynamic Headers and 5 of Each of Static and Dynamic Footers</p>
+  </div>
+
+  <nav id="desktop-nav">
+    <div class="logo"></div>
+    <div>
+      <ul class="nav-links">
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+        </ul>
+      </div>
+    </nav>
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.location.href='./page1.html'">
+        View Headers
+      </button>
+      <button class="btn btn-color-1" onclick="window.location.href='./page2.html'">
+        View Footers
+      </button>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Designs Compilation</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: white;
+      text-align: center;
+      background-color: #222;
+    }
+    header {
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .header-content {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .header-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .header-content p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .header-content .line {
+      width: 100px;
+      height: 2px;
+      background-color: #fff;
+      margin: 0 auto 20px;
+    }
+    .main-navigation {
+      display: flex;
+      justify-content: center;
+      background-color: #555;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+    .main-navigation a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+    .main-navigation a:hover {
+      background-color: #777;
+    }
+    .design {
+      padding: 20px;
+      background-color: #444;
+      width: 100%;
+      margin-top: 20px;
+      position: relative; /* Add position relative to the container */
+      height: 300px; /* Adjust the height to ensure it fits the content */
+    }
+    .design-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+    }
+    .design h2 {
+      font-size: 2.5rem; /* Increase font size */
+      margin-bottom: 10px;
+    }
+    .design p {
+      font-size: 1.5rem; /* Increase font size */
+      margin-bottom: 20px;
+    }
+    .design img {
+      width: 150px; /* Set a specific width for the image */
+      height: auto; /* Maintain aspect ratio */
+      display: block;
+      margin: 0 auto 20px; /* Center the image */
+    }
+    .design .logo-image {
+      width: 200px; /* Adjust width of the logo image */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 20px;
+    }
+    .design .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+    }
+    .design .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #555;
+      transition: background-color 0.3s ease;
+    }
+    .design .nav-links a:hover {
+      background-color: #777;
+    }
+    .vertical-navigation {
+      display: flex;
+      flex-direction: column;
+      background-color: #555;
+      padding: 10px 0;
+      margin-top: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      overflow-y: auto;
+      width: 200px;
+    }
+    .vertical-navigation a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+    .vertical-navigation a:hover {
+      background-color: #777;
+    }
+    .section-divider {
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      margin: 20px 0;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body class="portfolio-body">
+  <header>
+    <div class="header-content">
+      <h1>Design 1</h1>
+      <p>Simple Header with Call to Actions Button Without Logo</p>
+      <div class="line"></div>
+    </div>
+  </header>
+
+  <nav class="main-navigation">
+    <a href="#">Work</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+  </nav>
+  <div class="section-divider"></div>
+
+  <div class="design">
+    <div class="design-content">
+      <img src="file:///D:/WEB/img/LOGO.GIF" alt="Design 2 Logo" class="logo-image"> <h1> Design 3</h1
+      <p>Header with Logo and Navigation Links</p>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <div class="design">
+    <h2>Design 5</h2>
+    <div class="design-overlay">
+      <p>Header with Background Image and Transparent Overlay</p>
+      <!-- Content for Design 5 -->
+    </div>
+  </div>
+
+
+  <div class="section-divider"></div>
+
+  <div class="vertical-navigation">
+    <a href="#">Work</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <section id="profile">
+    <!-- Content for profile section -->
+  </section>
+
+  <!-- Removed sections for About, Experience, Projects, Contact -->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <!-- Removed links for About, Experience, Projects, Contact -->
+        </ul>
+      </div>
+    </nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

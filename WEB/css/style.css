@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style 1: Simple and Clean Footer */
+.footer-1 {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-1 p {
+  margin: 0;
+}
+
+.footer-1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-1 a:hover {
+  text-decoration: underline;
+}
+
+/* Style 2: Footer with Border and Links */
+.footer-2 {
+  background-color: #f4f4f4;
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-2 a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-2 a:hover {
+  text-decoration: underline;
+}
+
+/* Style 3: Footer with Social Icons */
+.footer-3 {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+/* Style 4: Footer with Centered Text and Divider */
+.footer-4 {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.footer-4 p {
+  margin: 0;
+}
+
+.footer-4 .divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.footer-4 a {
+  text-decoration: none;
+}
+
+.footer-4 a:hover {
+  text-decoration: underline;
+}
+
+/* Style 5: Dark Footer with Floating Links */
+.footer-5 {
+  background-color: #111;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-5 a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer-5 a:hover {
+  text-decoration: underline;
+}
